@@ -38,10 +38,10 @@ data:
       rolearn: arn:aws:iam::315069654700:role/eksctl-eks-spot-cluster-nodegroup-NodeInstanceRole-1SJXZ56SHJJK5
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
-  - groups:
-      - roboshop-admin
-      userarn: arn:aws:iam::315069654700:user/sivakumar
-      username: sivakumar
+    - groups:
+        - roboshop-admin
+        userarn: arn:aws:iam::315069654700:user/sivakumar
+        username: sivakumar
 kind: ConfigMap
 metadata:
   creationTimestamp: "2023-07-27T12:57:45Z"
