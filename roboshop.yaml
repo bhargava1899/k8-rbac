@@ -39,9 +39,9 @@ data:
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
     - groups:
-        - roboshop-admin
-        userarn: arn:aws:iam::315069654700:user/sivakumar
-        username: sivakumar
+      - roboshop-admin
+      userarn: arn:aws:iam::315069654700:user/sivakumar
+      username: sivakumar
 kind: ConfigMap
 metadata:
   creationTimestamp: "2023-07-27T12:57:45Z"
