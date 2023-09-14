@@ -22,7 +22,7 @@ metadata:
 subjects:
 # You can specify more than one "subject"
 - kind: User
-  name: sivakumar
+  name: sai
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role #this must be Role or ClusterRole
@@ -40,8 +40,8 @@ data:
   mapUsers: |
     - groups:
       - roboshop-admin
-      userarn: arn:aws:iam::315069654700:user/sivakumar
-      username: sivakumar
+      userarn: arn:aws:iam::923625343454:user/sai
+      username: sai
 kind: ConfigMap
 metadata:
   creationTimestamp: "2023-07-27T12:57:45Z"
